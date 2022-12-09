@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: rgba(250, 235, 215, 0.2);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* ------------------------------ */
+/* ---------- HEADER ------------ */
+/* ------------------------------ */
+
+nav {
+  min-height: 13vh;
+  display: flex;
+  align-items: center;
+  gap: 70px;
+}
+
+.logo {
+  width: 120px;
+  cursor: pointer;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.nav-link {
+  color: #555;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.nav-link:hover {
+  color: #3b855b;
+}
+
+.nav-link-active {
+  color: #3b855b;
+  font-weight: 500;
+}
+
+/* ------------------------------ */
+/* ------- SECTION HERO --------- */
+/* ------------------------------ */
+
+.section-hero {
+  min-height: 87vh;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+  align-items: center;
+}
+
+.hero-textbox h1 {
+  color: #222;
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 28px;
+}
+
+.hero-textbox p {
+  color: #555;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  margin-bottom: 36px;
+}
+
+.btn {
+  padding: 14px 36px;
+  border: none;
+  background-color: #3b855b;
+  border-radius: 10px;
+  color: #fff;
+  font-family: inherit;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  background-color: #307950;
+  transform: translateY(-5px);
+}
+
+.hero-imgbox-div1 {
+  display: flex;
+  align-items: flex-end;
+  gap: 24px;
+  margin-bottom: 24px;
+}
